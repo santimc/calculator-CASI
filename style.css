@@ -16,19 +16,22 @@ h1 {
   display: grid;
   background: #555555;
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 0 30%;
   padding: 15px 25px;
-  grid-template-rows: 1fr 1fr 5fr;
+  grid-template-rows: 0.5fr 1.5fr 4fr;
 }
 
-input {
+p#display {
+  text-align: right;
   margin-bottom: 10px;
   border-radius: 10px;
   border-style: outset;
   border-color: black;
   font-size: 25px;
-  padding-left: 5%;
+  padding-top: 10px;
+  padding-right: 15px;
+  background: white;
 }
 
 #buttonsContainer {
